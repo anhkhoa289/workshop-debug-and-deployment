@@ -28,4 +28,5 @@ kubectl set image deployment/app workshop=kenvin289/workshop:2.0.0 --record
 # Clean everything
 
 kubectl delete service web-app
+kubectl delete deployment app
 gcloud container clusters delete k8s-demo
