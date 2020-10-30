@@ -21,8 +21,6 @@ kubectl get svc web-app
 
 # Update deployment
 
-kubectl get pods
-kubectl get pod app-5776cb65f4-qpcbp -o yaml
 kubectl set image deployment/app workshop=kenvin289/workshop:2.0.0 --record
 
 # Clean everything
